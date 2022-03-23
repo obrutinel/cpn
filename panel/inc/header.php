@@ -112,7 +112,6 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="<?php echo HTTP;?>panel/css/fontawesome-iconpicker.min.css" type="text/html">
 <link href="<?php echo HTTP;?>Wagaia/panel/panel.css" rel="stylesheet">
-<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 <script type="text/javascript">
 	function showCoords(c)
 	{
