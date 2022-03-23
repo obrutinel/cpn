@@ -127,7 +127,7 @@ if (!$identifiant) {
 	//if($type == 'sousref_1') $q .= ' DESC';
 
 
-    echo $q .= $addLimitSql;
+    $q .= $addLimitSql;
 
 	
 	$data = $db->select($q);
