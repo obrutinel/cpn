@@ -1,0 +1,31 @@
+{
+    "name": "wagaia/cpn",
+    "description": "Wagaia / Cpn Agence",
+    "authors": [
+        {
+            "name": "Olivier Brutinel, Wagaia",
+            "email": "obrutinel@Wagaia.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^3.1",
+        "intervention/image": "^2.4",
+        "css-crush/css-crush": "dev-master",
+        "sensiolabs/security-checker": "^3.0",
+        "danielstjules/stringy": "^3.1",
+        "swiftmailer/swiftmailer": "^5.4",
+        "google/recaptcha": "^1.2"
+    },
+    "autoload" : {
+        "files" : [
+            "Wagaia/config/init.php",
+            "Wagaia/config/config-website.php",
+            "Wagaia/config/traductions.php",
+            "panel/lib/functions.php"
+        ],
+        "psr-4": {
+            "Wagaia\\": "Wagaia/Classes"
+        }
+
+    }
+}

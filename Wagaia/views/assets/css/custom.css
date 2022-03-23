@@ -1,0 +1,267 @@
+body {
+	color: #1F1F1F;
+	font-family: 'Roboto', sans-serif;
+}
+
+#main-banner h1 {
+    /*text-shadow: 1px 1.5px 1px rgba(0, 0, 0, 0.5) !important;*/
+    font-weight: 600 !important;
+    font-size: 2.3rem !important;
+    margin-bottom: 0px !important;
+}
+
+#main-banner h4 {
+    /*text-shadow: 1px 1.5px 1px rgba(0, 0, 0, 0.5);*/
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+#main-banner .tp-caption {
+	background: #ffffff78;
+	color: #384141 !important;
+}
+
+#main-banner .tp-caption.btn_common {
+	border: 1px solid #384141 !important;
+	font-weight: 600 !important;
+}
+
+.tp-bullet {
+    background: #fff;
+    border-color: #fff;
+}
+
+
+.actualite .media .media-body .date i {
+    margin: 0 5px 0 0;
+}
+
+h3.sector-subtitle,
+.heading {
+	font-family: 'Roboto', sans-serif;
+}
+
+p,
+.project-table .d-table-cell p,
+.content {
+	font-family: 'Roboto', sans-serif;
+	color: #1F1F1F;
+}
+
+.content ul {
+    margin: 0 0 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.content ul > li {
+    margin-left: 25px;
+	color: #1F1F1F;
+}
+
+.content ul li::before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #1d72bc;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: -25px;
+    margin-right: 10px;
+}
+
+.content ul>li+li {
+    margin-top: 15px;
+}
+
+.btn_border {
+    background-color: #fff;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.has_children::after {
+    content: "\f107";
+    font-family: 'FontAwesome';
+    vertical-align: middle;
+    height: auto;
+    width: auto;
+    border: none;
+    margin-left: .255em;
+}
+
+.list-actualites .date {
+    color: #1d72bc;
+    font-style: italic;	
+}
+
+.list-actualites .date i {
+	padding: 0 5px 0 0;
+}
+
+.list-actualites .services-box {
+	border-bottom: 1px solid #dadada;
+    margin: 0 0 25px;
+    padding: 0 0 25px;	
+}
+
+.list-actualites .services-box .btn_common {
+	border: none;
+    box-shadow: 0 0 0;
+    padding: 0;
+    text-align: right;
+    display: block;
+}
+
+.list-actualites .services-box:last-child {
+	border-bottom: none;
+}
+
+.list-actualites .services-box .btn_common:focus,
+.list-actualites .services-box .btn_common:hover {
+    background: none;
+	opacity: 0.9;
+    color: #1d72bc;
+}
+
+.footer_panel ul.links,
+.dropdown-menu .dropdown-item,
+.navbar-nav .nav-link {
+	font-family: 'Roboto', sans-serif;
+}
+
+.list-reference h1.heading,
+.reference h1.heading {
+	font-size: 2.3rem;
+	color: #384141;
+}
+
+.reference .macaron {
+    position: absolute;
+    background: #1d72bc;
+    top: -9px;
+    color: #fff;
+    padding: 1px 10px;
+    transform: rotate(-30deg);
+    left: -21px;
+    max-width: 135px;
+    text-align: center;
+}
+
+.reference .cpng-caption {
+    padding-top: 15px;
+}
+
+.reference .cpng-caption h3 {
+	font-size: 16px;
+}
+
+.reference .cpng-caption p {
+    font-weight: 500;
+	margin-bottom: 20px;
+}
+
+
+#main-banner .stitle {
+	max-width: 1500px !important;
+	width: 1500px !important;
+}
+
+.cpngallery-item img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+	#main-banner .stitle {
+		max-width: 1000px !important;
+		width: 1000px !important;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	#main-banner .stitle {
+		max-width: 750px !important;
+		width: 750px !important;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	#main-banner .stitle {
+		max-width: 500px !important;
+		width: 500px !important;
+	}
+	
+	.content ul li::before {
+		margin-right: 15px;
+	}
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+	#main-banner .stitle {
+		max-width: 100% !important;
+		width: 100% !important;
+		white-space: break-spaces !important;
+		padding: 0 10px !important;
+		line-height: 5px !important;
+	}
+	
+	#main-banner .stitle h1 {
+		font-size: 1.5rem !important;
+	}
+	
+	#main-banner .tp-caption.btn_common {
+		font-size: 1rem !important;
+	}
+	
+	.reference .cpngallery-item img {
+		max-width: 150px;
+		margin: auto;
+	}
+	
+	.reference .macaron {
+		top: 0;
+		left: 0;
+		right: 0;
+		transform: inherit;
+		display: block;
+		margin: 0 auto;
+		max-width: 150px;
+	}
+	
+	.list-actualites .services-box {
+		padding: 0 10px 25px;
+	}
+	
+	.actualite .content img {
+		max-width: 100%;
+	}
+	
+	.secteur .skill {
+		padding-top: 0;
+		margin-top: -10px;
+	}
+
+}
