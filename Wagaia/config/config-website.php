@@ -74,7 +74,7 @@ $server = array(
         'folder'=>'/'.$web_folder,
         'filemanager'=>'',
         'name'=> $project,
-        'http'=> 'https://cpnagence.wagaia.fr/'.$web_folder,
+        'http'=> 'https://www.cpnagence.com/'.$web_folder,
         'path'=> $_SERVER['DOCUMENT_ROOT'] . '/',
         'filemanager_upload_path'=> $_SERVER['DOCUMENT_ROOT'],
         ),
